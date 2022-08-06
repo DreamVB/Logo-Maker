@@ -5,9 +5,9 @@ program text3d;
 uses
  {$IFDEF UNIX}
   cthreads,
-     {$ENDIF} {$IFDEF HASAMIGA}
+      {$ENDIF} {$IFDEF HASAMIGA}
   athreads,
-     {$ENDIF}
+      {$ENDIF}
   Interfaces, // this includes the LCL widgetset
   Forms,
   Unit1,

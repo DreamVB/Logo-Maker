@@ -40,8 +40,7 @@ begin
     exit;
   end;
   N := ColorToRGB(Color);
-  Result := '#' + IntToHex(Red(N), 2) + IntToHex(Green(N), 2) +
-    IntToHex(Blue(N), 2);
+  Result := '#' + IntToHex(Red(N), 2) + IntToHex(Green(N), 2) + IntToHex(Blue(N), 2);
 end;
 
 function SHtmlColorToColor(s: string; out Len: integer; Default: TColor): TColor;
